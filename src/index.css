@@ -1,13 +1,46 @@
+@import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Alef:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Inter:wght@100..900&display=swap");
+
+:root {
+  --purple-color: #604f7c;
+  --light-purple: #f4e9ff;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.text-purple {
+  color: var(--purple-color);
+}
+.bg-purple {
+  background-color: var(--purple-color);
+}
+.border-purple {
+  border: 1px solid var(--purple-color);
+}
+.bg-light-purple {
+  background-color: var(--light-purple);
+}
+.w-95 {
+  width: 95%;
+  margin: auto;
+}
+.border-rounded {
+  border-radius: 20px;
+}
+.border-top-light-purple {
+  border-color: var(--light-purple);
+}
+.ptb-5px {
+  padding: 2px 0px;
 }

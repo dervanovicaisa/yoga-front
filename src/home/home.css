@@ -1,0 +1,26 @@
+.illustartion {
+  position: relative;
+  right: -35px;
+  top: 22px;
+}
+.explore-more-btn:hover,
+.explore-more-btn.active {
+  background-color: var(--purple-color);
+}
+.description-text p {
+  font-weight: 300;
+  font-size: x-large;
+}
+.description-text h3 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Alef";
+}
+.description-text {
+  padding-left: 80px;
+}
+@media only screen and (max-width: 768px) {
+  .illustartion {
+    position: unset;
+  }
+}

@@ -1,0 +1,11 @@
+.login-btn.btn:hover,
+.mobile-btn.btn:hover {
+  background-color: unset;
+  border-color: var(--purple-color);
+}
+
+.login-btn.btn:active,
+.mobile-btn.btn:active {
+  background-color: unset;
+  border-color: var(--purple-color);
+}

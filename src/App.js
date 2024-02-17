@@ -1,15 +1,18 @@
 // import "./App.css";
-import HeaderComponent from "./header/Header";
-import HomeComponent from "./home/Home";
-import Services from "./services/Services";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Login from "./login/Login";
+import HomePage from "./Home";
 
 function App() {
   return (
-    <div className="w-95">
-      <HeaderComponent />
-      <HomeComponent />
-      <Services />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/">
+          <Route index element={<HomePage />} />
+          <Route path="login" element={<Login />}></Route>
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

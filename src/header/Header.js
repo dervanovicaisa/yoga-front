@@ -26,6 +26,7 @@ function HeaderComponent() {
           <Button
             variant="light"
             className="text-purple border-purple px-4 py-2 login-btn"
+            href="login"
           >
             LOGIN
           </Button>
@@ -55,6 +56,7 @@ function HeaderComponent() {
               <Nav.Link href="#package">Package</Nav.Link>
               <Button
                 variant="light"
+                href="login"
                 className="text-purple border-purple px-4 py-2 login-btn"
               >
                 LOGIN

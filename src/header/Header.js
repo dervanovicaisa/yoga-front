@@ -26,7 +26,7 @@ function HeaderComponent() {
           <Button
             variant="light"
             className="text-purple border-purple px-4 py-2 login-btn"
-            href="login"
+            href="#"
           >
             LOGIN
           </Button>
